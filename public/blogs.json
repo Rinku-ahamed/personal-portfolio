@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "What is React?",
+    "image": "https://i.ibb.co/y8LknhT/reactjs.jpg",
+    "description": "React.js is a JavaScript library developed by Facebook for building user interfaces (UIs) in web applications. It follows a component-based architecture, where the UI is divided into reusable components. React.js efficiently updates the virtual DOM (a virtual representation of the actual DOM) and reconciles it with the real DOM, resulting in improved performance. JSX, a syntax extension, allows developers to write HTML-like code within JavaScript, making it easier to define component structures. React.js follows a unidirectional data flow, where data flows from parent components to child components, maintaining a predictable state. The introduction of React Hooks simplifies state management and lifecycle handling in functional components. React.js has gained popularity due to its performance, reusability, and ease of development, making it widely used for web, mobile (using React Native), and desktop (using frameworks like Electron) applications."
+  },
+  {
+    "id": 2,
+    "name": "What is React?",
+    "image": "https://i.ibb.co/y8LknhT/reactjs.jpg",
+    "description": "React.js is a JavaScript library developed by Facebook for building user interfaces (UIs) in web applications. It follows a component-based architecture, where the UI is divided into reusable components. React.js efficiently updates the virtual DOM (a virtual representation of the actual DOM) and reconciles it with the real DOM, resulting in improved performance. JSX, a syntax extension, allows developers to write HTML-like code within JavaScript, making it easier to define component structures. React.js follows a unidirectional data flow, where data flows from parent components to child components, maintaining a predictable state. The introduction of React Hooks simplifies state management and lifecycle handling in functional components. React.js has gained popularity due to its performance, reusability, and ease of development, making it widely used for web, mobile (using React Native), and desktop (using frameworks like Electron) applications."
+  },
+  {
+    "id": 3,
+    "name": "What is React?",
+    "image": "https://i.ibb.co/y8LknhT/reactjs.jpg",
+    "description": "React.js is a JavaScript library developed by Facebook for building user interfaces (UIs) in web applications. It follows a component-based architecture, where the UI is divided into reusable components. React.js efficiently updates the virtual DOM (a virtual representation of the actual DOM) and reconciles it with the real DOM, resulting in improved performance. JSX, a syntax extension, allows developers to write HTML-like code within JavaScript, making it easier to define component structures. React.js follows a unidirectional data flow, where data flows from parent components to child components, maintaining a predictable state. The introduction of React Hooks simplifies state management and lifecycle handling in functional components. React.js has gained popularity due to its performance, reusability, and ease of development, making it widely used for web, mobile (using React Native), and desktop (using frameworks like Electron) applications."
+  }
+]

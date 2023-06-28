@@ -2,19 +2,23 @@
   {
     "id": 1,
     "name": "Rhythm Labs",
-    "photo": "https://i.ibb.co/dkMPcQn/Rhythm-Labs.png",
-    "technology": ["Tailwind css", "React", "Express", "MongoDB"],
-    "tools": ["Firebase", "Vercel", "React Router"],
+    "photo": "https://i.ibb.co/TkFG2Qb/Rhythm-Lab-1.png",
+    "technology": ["Tailwind css,", "React,", "Express,", "MongoDB"],
+    "tools": ["Firebase,", "Vercel,", "React Router"],
     "description": "The purpose of this project is to help people with their music.",
+    "server_side": "https://github.com/Rinku-ahamed/rhythm-labs-server",
+    "client_side": "https://github.com/Rinku-ahamed/rhythm-labs-client",
     "link": "https://rhythm-labs.web.app/"
   },
   {
     "id": 2,
     "name": "carToyZone",
-    "photo": "https://i.ibb.co/dgMWM5q/Car-Toy-Zone.png",
+    "photo": "https://i.ibb.co/2vqz9dd/Car-Toy-Zone-Blogs.png",
     "technology": ["Tailwind css", "React", "Express", "MongoDB"],
     "tools": ["Firebase", "Vercel", "React Router"],
-    "description": "This is object 2 description.",
+    "server_side": "https://github.com/Rinku-ahamed/carToyZone-server",
+    "client_side": "https://github.com/Rinku-ahamed/carToyZone-client",
+    "description": "The main purpose of this project is to show car toys with some information so that our customers can see. there we are added login, register for our customer so that after login with their account they can see the car toys details. without login they can't see the car toys details.",
     "link": "https://cartoyzone-35cd0.web.app/"
   }
 ]

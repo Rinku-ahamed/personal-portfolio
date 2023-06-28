@@ -1,6 +1,16 @@
 import { Link } from "react-router-dom";
 import Resume from "../../assets/Rinku_Resume.pdf";
+import Lottie from "react-lottie";
+import Programmer from "../../../public/programmer.json";
 const Banner = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: Programmer,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div className="flex flex-col-reverse lg:flex-row ">
       <div className="lg:w-7/12 pt-6 lg:pe-6">
@@ -10,9 +20,10 @@ const Banner = () => {
           <br className="hidden sm:block" /> Developer
         </h1>
         <p className="text-gray-500 mt-4">
-          I am an junior developer with a passion for learning and growth and
-          eager to contribute to projects, collaborate with teammates and learn
-          new technologies. I have a 2+ year of experience in web development.
+          I am an mern stack developer with a passion for learning and growth
+          and eager to contribute to projects, collaborate with teammates and
+          learn new technologies. I have a 1+ year of experience in web
+          development.
         </p>
         <div className="mt-6">
           <Link
@@ -51,7 +62,8 @@ const Banner = () => {
         </div>
       </div>
       <div className="lg:w-5/12">
-        <img src="https://i.ibb.co/hXJSTpB/Your-Image-1.png" alt="" />
+        {/* <img src="https://i.ibb.co/hXJSTpB/Your-Image-1.png" alt="" /> */}
+        <Lottie options={defaultOptions} height={400} width={400} />
       </div>
     </div>
   );

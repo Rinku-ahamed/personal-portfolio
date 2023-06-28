@@ -16,7 +16,7 @@ const Sidebar = ({ setIsOpen }) => {
         <img
           src="https://i.ibb.co/M1vmNWG/197044480-161556039343108-1949220722968995316-n.jpg"
           alt=""
-          className="mx-auto w-28 h-28 rounded-full border-2 border-[#a5a6ff] object-cover hidden md:block"
+          className="mx-auto w-28 h-28 rounded-full border-2 border-sky-700 object-cover hidden md:block"
         />
         <h2 className="text-xl text-sky-700 font-extrabold font-Karla mt-2 tracking-[0px]">
           Rinku <span>Ahamed</span>

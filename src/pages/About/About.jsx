@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import ProgressBar from "@ramonak/react-progress-bar";
+import Resume from "../../assets/Rinku_Resume.pdf";
 const About = () => {
   return (
     <>
@@ -69,20 +70,24 @@ const About = () => {
           </h2>
           <p className="text-textColorP">
             Welcome to my website! I'm Rinku Ahamed, a passionate and dedicated
-            junior web developer. I have a strong passion for creating
+            mern stack developer. I have a strong passion for creating
             responsive and user-friendly web applications that leave a lasting
             impression. With a solid foundation in web development technologies,
             I bring a fresh perspective and a commitment to continuous learning
             to every project.
           </p>
-          <p className="text-textColorP mt-3">
+          <p className="text-textColorP mt-3 mb-4">
             I am expertize in creating responsive and user-friendly web
             applications using like Html, Css, JavaScript, React, Tailwind,
             Bootstrap, Node, Express and more.
           </p>
-          <button className="bg-sky-700 transition-colors duration-300 shadow-lg shadow-blue-500/50 text-[#fff] py-2 px-4 me-4 font-bold rounded mt-7">
+          <a
+            href={Resume}
+            download="Resume"
+            className="bg-sky-800 text-white transition-colors duration-300   shadow-lg shadow-blue-500/50  py-2 px-4  font-bold rounded"
+          >
             Download Resume
-          </button>
+          </a>
         </div>
       </div>
 
