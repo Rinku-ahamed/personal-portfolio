@@ -2,6 +2,7 @@ import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Animation from "../../shared/Animation/Animation";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -60,30 +61,32 @@ const Contact = () => {
           </div>
         </div>
         <div className="lg:w-7/12 md:ps-7 md:pe-4">
-          <form ref={form} onSubmit={sendEmail}>
-            <input
-              className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5"
-              type="text"
-              name="user_name"
-              placeholder="Your Name"
-            />
-            <input
-              className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5"
-              type="email"
-              name="user_email"
-              placeholder="Your email"
-            />
-            <textarea
-              className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5 h-32"
-              name="message"
-              placeholder="Your message"
-            ></textarea>
-            <input
-              type="submit"
-              value="Submit Now"
-              className="bg-[#130f49] text-[#fff] py-2 px-3 rounded cursor-pointer"
-            />
-          </form>
+          <Animation>
+            <form ref={form} onSubmit={sendEmail}>
+              <input
+                className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5"
+                type="text"
+                name="user_name"
+                placeholder="Your Name"
+              />
+              <input
+                className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5"
+                type="email"
+                name="user_email"
+                placeholder="Your email"
+              />
+              <textarea
+                className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5 h-32"
+                name="message"
+                placeholder="Your message"
+              ></textarea>
+              <input
+                type="submit"
+                value="Submit Now"
+                className="bg-[#130f49] text-[#fff] py-2 px-3 rounded cursor-pointer"
+              />
+            </form>
+          </Animation>
         </div>
       </div>
       <div className="mt-14 pb-6">

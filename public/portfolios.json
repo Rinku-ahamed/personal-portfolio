@@ -5,7 +5,7 @@
     "photo": "https://i.ibb.co/TkFG2Qb/Rhythm-Lab-1.png",
     "technology": ["Tailwind css,", "React,", "Express,", "MongoDB"],
     "tools": ["Firebase,", "Vercel,", "React Router"],
-    "description": "The purpose of this project is to help people with their music.",
+    "description": "Rhythm Labs is an innovative online platform designed to revolutionize music education. Our website provides a seamless and user-friendly experience for students, instructors, and administrators alike. Through our platform, students can easily register and log in using their personalized login information. Once logged in, they gain access to a wide range of music instrument teaching courses tailored to their interests and skill levels. At Rhythm Labs, we understand the importance of quality and expertise in music instruction. To ensure the highest standards, Instructors have the ability to upload their classes directly onto our website, but these classes are not immediately visible to students. Instead, they undergo an approval process conducted by our diligent administrative team.",
     "server_side": "https://github.com/Rinku-ahamed/rhythm-labs-server",
     "client_side": "https://github.com/Rinku-ahamed/rhythm-labs-client",
     "link": "https://rhythm-labs.web.app/"
