@@ -11,7 +11,6 @@ const Animation = ({ children }) => {
     if (isInView) {
       mainControls.start("visible");
     }
-    console.log(isInView);
   }, [isInView]);
   return (
     <div ref={ref} style={{ position: "relative", overflow: "hidden" }}>

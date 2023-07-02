@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Animation from "../../shared/Animation/Animation";
+import { Helmet } from "react-helmet";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_t9pdm3u",
@@ -28,6 +28,9 @@ const Contact = () => {
   };
   return (
     <>
+      <Helmet>
+        <title>Contact | Personal Portfolio</title>
+      </Helmet>
       <div className="md:flex gap-7 pt-10">
         <div className="lg:w-5/12">
           <h4>- LET IS CONNECT</h4>

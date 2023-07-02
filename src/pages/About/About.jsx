@@ -2,9 +2,13 @@
 import ProgressBar from "@ramonak/react-progress-bar";
 import Resume from "../../assets/Rinku_Resume.pdf";
 import Animation from "../../shared/Animation/Animation";
+import { Helmet } from "react-helmet";
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About | Personal Portfolio</title>
+      </Helmet>
       <Animation>
         <div className="flex flex-col-reverse lg:flex-row gap-3">
           <div className="lg:w-5/12 pe-10">

@@ -5,7 +5,7 @@ const BlogCard = ({ blog }) => {
   const { id, name, description, image } = blog;
   return (
     <div className="border border-gray-200 rounded-lg p-3 text-center">
-      <img src={image} alt="" />
+      <img src={image} alt="" className="h-44 object-cover" />
       <div className=" px-3">
         <h3 className="mt-2 text-xl text-sky-600 font-Karla font-semibold">
           {name}
