@@ -21,7 +21,7 @@ const Sidebar = ({ setIsOpen }) => {
         <h2 className="text-xl text-sky-700 font-extrabold font-Karla mt-2 tracking-[0px]">
           Rinku <span>Ahamed</span>
         </h2>
-        <p className="text-[13px] text-gray-500">Mern Stack Developer</p>
+        <p className="text-[14px] text-gray-500">Mern Stack Developer</p>
         <div className="flex gap-5 items-center justify-center mt-3">
           <Link
             to="https://www.facebook.com/rinkuali64/"

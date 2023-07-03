@@ -19,13 +19,14 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           toast.success("Message sent successfully");
-          e.reset();
         },
         (error) => {
           console.log(error.text);
           toast.error(error.text);
         }
       );
+    e.target.reset();
+    console.log(e.target);
   };
   return (
     <>
@@ -34,7 +35,7 @@ const Contact = () => {
       </Helmet>
       <div className="md:flex gap-7 pt-10">
         <div className="lg:w-5/12">
-          <h4>- LET IS CONNECT</h4>
+          <h4>- Let's Connect</h4>
           <h2 className="text-4xl mt-3 text-[#130f49] font-bold font-Karla">
             Get in touch
           </h2>
@@ -72,17 +73,20 @@ const Contact = () => {
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
+                required
               />
               <input
                 className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5"
                 type="email"
                 name="user_email"
                 placeholder="Your email"
+                required
               />
               <textarea
                 className="w-full bg-[#edecec] outline-none py-2 px-3 rounded mb-5 h-32"
                 name="message"
                 placeholder="Your message"
+                required
               ></textarea>
               <input
                 type="submit"

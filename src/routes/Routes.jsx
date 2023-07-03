@@ -7,11 +7,13 @@ import Blogs from "../pages/Blogs/Blogs";
 import Contact from "../pages/Contact/Contact";
 import SingleBlog from "../pages/Blogs/SingleBlog";
 import SinglePortfolio from "../pages/Portfolio/SinglePortfolio";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
